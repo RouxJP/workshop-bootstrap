@@ -28,11 +28,23 @@ no">
                     <div class="col-6">
                         <h7>Nom</h7>
                     </div>
+
                     <div class="col-6">
                         <input type="text" class="form-control" placeholder="Username" aria-label="Nom"
                             aria-describedby="basic-addon1">
                     </div>
+                 
+                    <div class="col-6">
+                        <p></p>
+                    </div>
 
+                    <div class="col-6">
+                        <p class="text-danger">Le nom est obligatoire</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
                     <div class="col-6">
                         <h7>Prénom</h7>
                     </div>
@@ -41,6 +53,15 @@ no">
                         <input type="text" class="form-control" placeholder="Username" aria-label="Prenom"
                             aria-describedby="basic-addon1">
                     </div>
+                    
+                    <div class="col-6">
+                        <p></p>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="text-danger">Le prénom est obligatoire</p>
+                    </div>
+
 
                 </div>
 
@@ -53,6 +74,16 @@ no">
                         <input type="date" class="form-control" placeholder="Username" aria-label="Date de naissance"
                             aria-describedby="basic-addon1">
                     </div>
+
+                    <div class="col-6">
+                        <p></p>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="text-danger">La date de naissance est obligatoire</p>
+                    </div>
+
+
                 </div>
 
 
@@ -61,10 +92,21 @@ no">
                     <div class="col-6">
                         <label for="validationTextarea">Adresse</label>
                     </div>
+
                     <div class="col-6">
                         <textarea class="form-control is-invalid" id="validationTextarea"
                             placeholder="Required example textarea" required></textarea>
                     </div>
+
+                    <div class="col-6">
+                        <p></p>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="text-danger">L'adresse est obligatoire</p>
+                    </div>
+
+
                 </div>
 
                 <div class="row">
@@ -73,22 +115,27 @@ no">
                     </div>
 
                     <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Num de sec soc"
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Num de sécurité sociale"
                             aria-describedby="basic-addon1">
                     </div>
-                </div>
 
-                <a href="creer_errors.html">Afficher erreurs formulaires</a>
+                    <div class="col-6">
+                        <p></p>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="text-danger">Le numéro de sécurité sociale est obligatoire</p>
+                    </div>
+
+
+                </div>
 
                 <div class="row" align="right">
                     <div class="col-12">
-                        <!-- <button type="button" class="btn btn-light">Créer</button> -->
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Launch demo modal
-                        </button>
+                        <button type="button" class="btn btn-light">Créer</button>
 
                     </div>
+
                 </div>
 
             </form>
@@ -97,70 +144,6 @@ no">
 
     </main>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Création d'un collaborateur</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-12">
-                            <h7>Vous ètes sur le point de créer un nouveau collaborateur </h7>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <h7>Nom</h7>
-                        </div>
-                        <div class="col-6">
-                            <p class="text-left">Ing dev</p>
-                        </div>
-
-                        <div class="col-6">
-                            <h7>Prenom</h7>
-                        </div>
-                        <div class="col-6">
-                            <p class="text-left">Jean-Philippe</p>
-                        </div>
-
-                        <div class="col-6">
-                            <h7>Date de naissance</h7>
-                        </div>
-                        <div class="col-6">
-                            <p class="text-left">12/02/1963</p>
-                        </div>
-
-                        <div class="col-6">
-                            <h7>Adresse</h7>
-                        </div>
-                        <div class="col-6">
-                            <p class="text-left">62 rue Vatel 34070 Montpellier</p>
-                        </div>
-
-                        <div class="col-6">
-                            <h7>Numéro de sécurité sociale</h7>
-                        </div>
-                        <div class="col-6">
-                            <p class="text-left">163023000707172</p>
-                        </div>
-
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-                    <button type="button" class="btn btn-primary">Confirmer</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
